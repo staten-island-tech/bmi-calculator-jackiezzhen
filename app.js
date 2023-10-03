@@ -27,7 +27,7 @@ const x = "String";
  //need to convert the string into a number
  let a = Number(prompt("enter a number"));
  let b =Number(prompt("enter another number"));
- add(a, b) */
+ add(a, b)
 
  function add(x,y){
     return x+y;
@@ -39,3 +39,13 @@ const x = "String";
     console.log(sum);
  }
  calc();
+ */
+
+
+let n = (prompt("Please Provide Your Name"));
+let cm =Number(prompt("Hello, " + n + " Provide Your Height, With the Corresponding Unit (CM/IN)")); 
+if (lower.cm == "cm"){
+
+}
+
+if (lower.cm == )
