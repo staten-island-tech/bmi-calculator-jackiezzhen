@@ -42,10 +42,45 @@ const x = "String";
  */
 
 
-let n = (prompt("Please Provide Your Name"));
-let cm =Number(prompt("Hello, " + n + " Provide Your Height, With the Corresponding Unit (CM/IN)")); 
-if (lower.cm == "cm"){
+const n = (prompt("Please Provide Your Name"));
+const cm =Number(prompt("Hello, " + n + " please provide your height in CENTIMETERS"));
+const kg =Number(prompt("Hello, " + n + " please provide your height in KILOGRAMS"));
+function value(cm, kg){
+   let bmi = getBMI(cm, kj);
+}
+
+function compare();
+   if (math()){
+
+}
+/*
+function getBMI(x,y){
+   return 20;
+}
+function check(x,y){
+   if(x === "horse"){
+      console.log(true);
+   }
+   else{ console.log("that is false")}
+}
+check("horse")
+function complex(x,y){
+   if(x=== "horse" && y === "horse"){
+      console.log("that is true")
+    } else{ console.log("this is false")}
+}
+complex("horse", "horse")
+
+function check(x){
+   if(x<=30){ conesole.log("healthy")}
+   else{console.log("this is false")}
 
 }
 
-if (lower.cm == )
+function init(){
+   y=weight;
+   z=height;
+   let x = getBMI(y, z);
+   check(x);
+}
+*/
